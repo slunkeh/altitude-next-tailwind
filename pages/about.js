@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import NavHero from '../components/navHero.js'
-import FeaturedServices from '../components/featuredServices.js'
+import Hero from '../components/hero.js'
 
-export default function Home() {
+export default function About() {
   return (
     <div>
       <Head>
@@ -10,8 +10,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavHero />
-      <FeaturedServices />
-
+      <Hero
+        preHeading = "Altitude Design"
+        heading = "About me" 
+        />
     </div>
   )
 }
