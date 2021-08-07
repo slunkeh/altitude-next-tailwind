@@ -139,16 +139,13 @@ export default function NavHero(props) {
           </main>
         </div>
       </div>
-      <a href="/">
         <div className="lg:absolute lg:inset-y-0 lg:right-10 xl:right-40 lg:w-1/2 p-12">
-
           <img
             className="w-full object-contain sm:h-72 lg:w-full lg:h-full"
             src="/me.svg"
             alt=""
           />
         </div>
-      </a>
     </div>
   )
 }

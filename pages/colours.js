@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import NavHero from '../components/navHero.js'
-import Hero from '../components/hero.js'
+import Navbar from '../components/navbar.js'
 
 export default function Colours() {
   return (
@@ -9,11 +8,8 @@ export default function Colours() {
         <title>Altitude Design - Colours</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavHero />
-      <Hero
-        preHeading = "Style Guide"
-        heading = "Colours" 
-        />
+
+      <Navbar/>
         <div className="container mx-auto p-4">
         <h2 className="text-white text-4xl font-semibold mb-6">Dark Palette</h2>    
         </div>

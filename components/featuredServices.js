@@ -5,7 +5,7 @@ export default function FeaturedServices() {
             <div className="container mx-auto px-4 sm:px-6 lg:px-0">
                 <div className="lg:text-center">
                     <h2 className="text-base text-lilac font-semibold tracking-wide uppercase">My Skills</h2>
-                    <p className="mt-2 text-3xl leading-8 font-semibold tracking-tigh sm:text-4xl">
+                    <p className="mt-2 text-white text-3xl leading-8 font-semibold tracking-tigh sm:text-4xl">
                         What I Do
                     </p>
                     <p className="mt-4 max-w-2xl text-xl text-gray-400 lg:mx-auto">
@@ -18,7 +18,7 @@ export default function FeaturedServices() {
 
                         <div className="relative p-6 rounded-md hover:shadow-2xl hover:bg-dark-900 transition border-primary-400">
                             <dt>
-                                <img src="/Strategy.svg" className="absolute h-20 w-20 p-1" aria-hidden="true" />
+                                <img src="./Strategy.svg" className="absolute h-20 w-20 p-1" aria-hidden="true" />
                                 <p className="ml-28 text-lg leading-6 font-medium text-gray-100">
                                     Strategy & Direction</p>
                             </dt>
@@ -27,7 +27,7 @@ export default function FeaturedServices() {
 
                         <div className="relative p-6 rounded-md hover:shadow-2xl hover:bg-dark-900 transition border-primary-400">
                             <dt>
-                                <img src="/web-design.svg" className="absolute h-20 w-20 p-1" aria-hidden="true" />
+                                <img src="./web-design.svg" className="absolute h-20 w-20 p-1" aria-hidden="true" />
                                 <p className="ml-28 text-lg leading-6 font-medium text-gray-100">
                                     Web Design</p>
                             </dt>
@@ -36,7 +36,7 @@ export default function FeaturedServices() {
 
                         <div className="relative p-6 rounded-md hover:shadow-2xl hover:bg-dark-900 transition border-primary-400">
                             <dt>
-                                <img src="/online-marketing.svg" className="absolute h-20 w-20 p-1" aria-hidden="true" />
+                                <img src="./online-marketing.svg" className="absolute h-20 w-20 p-1" aria-hidden="true" />
                                 <p className="ml-28 text-lg leading-6 font-medium text-gray-100">
                                     Online Marketing</p>
                             </dt>
@@ -45,7 +45,7 @@ export default function FeaturedServices() {
 
                         <div className="relative p-6 rounded-md hover:shadow-2xl hover:bg-dark-900 transition border-primary-400">
                             <dt>
-                                <img src="/systems-automation.svg" className="absolute h-20 w-20 p-1" aria-hidden="true" />
+                                <img src="./systems-automation.svg" className="absolute h-20 w-20 p-1" aria-hidden="true" />
                                 <p className="ml-28 text-lg leading-6 font-medium text-gray-100">
                                     Systems Automation</p>
                             </dt>
